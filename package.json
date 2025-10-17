@@ -15,6 +15,6 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "portal-sdk": "^0.1.3"
+    "portal-sdk": "^0.1.4"
   }
 }
