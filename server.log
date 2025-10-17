@@ -1,0 +1,10 @@
+
+> restaurant-portal@1.0.0 server
+> tsx watch src/server/index.ts
+
+Server running on http://localhost:8080
+Initializing Portal SDK connection...
+Running in mock mode for development
+⚠️  Running in mock mode - Portal SDK not connected
+To use real Portal SDK, ensure the daemon is running:
+docker run --rm -d -p 3000:3000 -e NOSTR_KEY=nsec1d5kdlzs3hrc6ydtj3xqu969d3cjwu22cvtauk8g9dx3e3my7lvtqhljvka -e NOSTR_RELAYS=wss://nos.lol getportal/sdk-daemon:latest
